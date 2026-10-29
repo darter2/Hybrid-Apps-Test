@@ -5,7 +5,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>
-        Open up App.js to start working on your app today!
+        Hi, my name is Derek, and I am a mobile developer
       </Text>
       <StatusBar style="auto" />
     </View>
