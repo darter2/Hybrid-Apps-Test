@@ -3,6 +3,7 @@ import { Platform, StyleSheet, StatusBar } from "react-native";
 export default StyleSheet.create({
   container: {
     flex: 1,
+    justifyContent: "center",
     flexDirection: "row",
     flexWrap: "wrap",
     backgroundColor: "ghostwhite",
@@ -16,6 +17,7 @@ export default StyleSheet.create({
   box: {
     height: 100,
     width: 100,
+    flexDirection: "row",
     justifyContent: "center",
     alignItems: "center",
     backgroundColor: "lightgray",
