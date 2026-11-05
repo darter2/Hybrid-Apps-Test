@@ -12,5 +12,5 @@ export default function Box({children}) {
 }
 
 Box.propTypes = {
-    children: PropTypes.nodes.isRequired,
+    children: PropTypes.node.isRequired,
 };
